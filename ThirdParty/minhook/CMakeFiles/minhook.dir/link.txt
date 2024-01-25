@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminhook.a CMakeFiles/minhook.dir/src/buffer.c.o CMakeFiles/minhook.dir/src/hook.c.o CMakeFiles/minhook.dir/src/trampoline.c.o CMakeFiles/minhook.dir/src/hde/hde64.c.o
+/usr/bin/ranlib libminhook.a
