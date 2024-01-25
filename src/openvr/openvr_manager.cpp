@@ -424,9 +424,13 @@ namespace vrperfkit {
 		}
 
 		float projLX = isFlippedX ? 1.f - projCenters.eyeCenter[0].x : projCenters.eyeCenter[0].x;
+		cout << "projLx" << projLX << endl;
 		float projLY = isFlippedY ? 1.f - projCenters.eyeCenter[0].y : projCenters.eyeCenter[0].y;
+		cout << "projLy" << projLY << endl;
 		float projRX = isFlippedX ? 1.f - projCenters.eyeCenter[1].x : projCenters.eyeCenter[1].x;
+		cout << "projRx" << projRX << endl;
 		float projRY = isFlippedY ? 1.f - projCenters.eyeCenter[1].y : projCenters.eyeCenter[1].y;
+		cout << "projRy" << projRY << endl;
 		d3d11Res->variableRateShading->UpdateTargetInformation(itd.Width, itd.Height, input.mode, projLX, projLY, projRX, projRY);
 		d3d11Res->variableRateShading->EndFrame();
 	}
