@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\src\buffer.c">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\src\buffer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\src\hook.c">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\src\hook.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\src\trampoline.c">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\src\trampoline.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\src\hde\hde64.c">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\src\hde\hde64.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{245D664E-28C3-3850-B3BE-8D321466CE0F}</UniqueIdentifier>
+      <UniqueIdentifier>{7E630FC6-BDAF-308A-82A6-2286828560B7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

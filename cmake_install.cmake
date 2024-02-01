@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/grant/Downloads/grants_vrperfkit-main
+# Install script for directory: C:/Users/grant/Desktop/grants-foveated-rendering
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/minhook/cmake_install.cmake")
-  include("C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp/cmake_install.cmake")
+  include("C:/Users/grant/Desktop/grants-foveated-rendering/ThirdParty/minhook/cmake_install.cmake")
+  include("C:/Users/grant/Desktop/grants-foveated-rendering/ThirdParty/yaml-cpp/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/grant/Downloads/grants_vrperfkit-main/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/grant/Desktop/grants-foveated-rendering/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

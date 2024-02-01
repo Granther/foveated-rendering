@@ -63,6 +63,7 @@ namespace vrperfkit {
 	}
 
 	OculusManager g_oculus;
+	Foveated f_fov;
 
 	struct OculusD3D11Resources {
 		std::unique_ptr<D3D11Injector> injector;
@@ -374,7 +375,7 @@ namespace vrperfkit {
             D3D11_TEXTURE2D_DESC td;
 			input.inputTexture->GetDesc(&td);
 
-            f_foveated.GetXREyeFoveated();
+            f_fov.GetXREyeFoveated();
 
 			d3d11Res->variableRateShading->UpdateTargetInformation(td.Width, td.Height, input.mode, 0.5, 0.5, 0.5, 0.5);
 		}
@@ -509,5 +510,7 @@ Maybe I should just make Foveated inherit from OculusManager and I'll just add t
 
 
 Ok I give up, lets just modify the oculus class and have it ask my foveated class only for the data, so when it runs my customized OculusManager methods it will also run my XrAsk...
+
+Ok, so I want to call a function that is in the f_foveated class, I
 
 */

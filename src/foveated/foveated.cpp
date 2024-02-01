@@ -13,11 +13,11 @@
 
 namespace vrperfkit {
 
-	Foveated f_foveated;
+	void Foveated::GetXREyeFoveated() {
+		//float main = 0.5;
 
-	void GetXREyeFoveated() {
-		float main = 0.5;
-
-		f_foveated.foveai[0][0] = main;
+		//f_foveated.foveai[0][0] = main;
+	
+		LOG_INFO << "Called from FOV";
 	}
 }

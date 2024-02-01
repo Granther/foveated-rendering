@@ -1,6 +1,6 @@
-^C:\USERS\GRANT\DOWNLOADS\GRANTS_VRPERFKIT-MAIN\CMAKEFILES\0174C6AD7CCB0AE8DC0712F93DA23E71\GENERATE.STAMP.RULE
+^C:\USERS\GRANT\DESKTOP\GRANTS-FOVEATED-RENDERING\CMAKEFILES\264E52E9F508A86A31ED27BB43787B1B\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Downloads/grants_vrperfkit-main -BC:/Users/grant/Downloads/grants_vrperfkit-main --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/grant/Downloads/grants_vrperfkit-main/VRPerfKit.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Desktop/grants-foveated-rendering -BC:/Users/grant/Desktop/grants-foveated-rendering --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/grant/Desktop/grants-foveated-rendering/VRPerfKit.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

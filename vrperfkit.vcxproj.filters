@@ -1,220 +1,220 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\dxgi.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\dxgi.cpp">
       <Filter>proxy</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\d3d11.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\d3d11.cpp">
       <Filter>proxy</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\openvr.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\openvr.cpp">
       <Filter>proxy</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\proxy_helpers.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\proxy_helpers.cpp">
       <Filter>proxy</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_hooks.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_hooks.cpp">
       <Filter>oculus</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_manager.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_manager.cpp">
       <Filter>oculus</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_hooks.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_hooks.cpp">
       <Filter>openvr</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_manager.cpp">
       <Filter>openvr</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_helper.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_helper.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_cas_upscaler.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_cas_upscaler.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_fsr_upscaler.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_fsr_upscaler.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_nis_upscaler.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_nis_upscaler.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_post_processor.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_post_processor.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_injector.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_injector.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_variable_rate_shading.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_variable_rate_shading.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\ScreenGrab11.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\ScreenGrab11.cpp">
       <Filter>d3d11</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\foveated\foveated.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\foveated\foveated.cpp">
       <Filter>foveated</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\config.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\config.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\dllmain.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\dllmain.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hotkeys.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hotkeys.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hooks.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hooks.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\logging.cpp">
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\logging.cpp">
       <Filter>core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\proxy_helpers.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\proxy_helpers.h">
       <Filter>proxy</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_hooks.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_hooks.h">
       <Filter>oculus</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_manager.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_manager.h">
       <Filter>oculus</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_hooks.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_hooks.h">
       <Filter>openvr</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_manager.h">
       <Filter>openvr</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_helper.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_helper.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_cas_upscaler.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_cas_upscaler.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_fsr_upscaler.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_fsr_upscaler.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_nis_upscaler.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_nis_upscaler.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_post_processor.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_post_processor.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_injector.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_injector.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_variable_rate_shading.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_variable_rate_shading.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\ScreenGrab11.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\ScreenGrab11.h">
       <Filter>d3d11</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\ffx_a.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\ffx_a.h">
       <Filter>fsr</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\ffx_fsr1.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\ffx_fsr1.h">
       <Filter>fsr</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Common.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Common.h">
       <Filter>nis</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Config.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Config.h">
       <Filter>nis</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Scaler.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Scaler.h">
       <Filter>nis</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.compute.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\cas.compute.h">
       <Filter>cas</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\ffx_a.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\ffx_a.h">
       <Filter>cas</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\ffx_cas.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\ffx_cas.h">
       <Filter>cas</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\foveated\foveated.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\foveated\foveated.h">
       <Filter>foveated</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\config.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\config.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hotkeys.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hotkeys.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hooks.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hooks.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\logging.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\logging.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\resolution_scaling.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\resolution_scaling.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\types.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\types.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\win_header_sane.h">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\win_header_sane.h">
       <Filter>core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\grant\Desktop\grants-foveated-rendering\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\fsr_easu.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\fsr_easu.hlsl">
       <Filter>fsr</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\fsr_rcas.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\fsr_rcas.hlsl">
       <Filter>fsr</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Sharpen.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Sharpen.hlsl">
       <Filter>nis</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Upscale.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Upscale.hlsl">
       <Filter>nis</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.sharpen.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\cas.sharpen.hlsl">
       <Filter>cas</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.upscale.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\cas.upscale.hlsl">
       <Filter>cas</Filter>
     </FXCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\grant\Downloads\grants_vrperfkit-main\resources\exports.def">
+    <None Include="C:\Users\grant\Desktop\grants-foveated-rendering\resources\exports.def">
       <Filter>resources</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cas">
-      <UniqueIdentifier>{1DF2DAE4-3F2E-3513-8CB3-9ADA3BDD5E4B}</UniqueIdentifier>
+      <UniqueIdentifier>{E0DFE806-D74A-3C0E-8E3C-13969F95FDF4}</UniqueIdentifier>
     </Filter>
     <Filter Include="core">
-      <UniqueIdentifier>{6CC1E7C0-1A51-3AB3-ACF9-E3D6A9D1BCE3}</UniqueIdentifier>
+      <UniqueIdentifier>{3F236858-B7C8-3218-B70C-1A104A864165}</UniqueIdentifier>
     </Filter>
     <Filter Include="d3d11">
-      <UniqueIdentifier>{E4C58779-0935-3BA5-B569-8913F8608B57}</UniqueIdentifier>
+      <UniqueIdentifier>{73BAADC7-7C27-3A49-8AB2-148DA67F229F}</UniqueIdentifier>
     </Filter>
     <Filter Include="foveated">
-      <UniqueIdentifier>{95169FE6-136D-3A4F-8C73-AB8E24E58AA6}</UniqueIdentifier>
+      <UniqueIdentifier>{61385898-698D-3718-8933-D91669D98256}</UniqueIdentifier>
     </Filter>
     <Filter Include="fsr">
-      <UniqueIdentifier>{991F13C5-122C-3BA1-B679-D2BD754DC833}</UniqueIdentifier>
+      <UniqueIdentifier>{B26E371D-C363-3192-A195-7C5A3A78E498}</UniqueIdentifier>
     </Filter>
     <Filter Include="nis">
-      <UniqueIdentifier>{31399A33-1F7C-30F6-8DFB-C93F81584BCF}</UniqueIdentifier>
+      <UniqueIdentifier>{17626D9F-E23C-390B-B0F4-DDF7E2E6665F}</UniqueIdentifier>
     </Filter>
     <Filter Include="oculus">
-      <UniqueIdentifier>{8D058ED9-E31A-3737-9478-06407EEE0FF1}</UniqueIdentifier>
+      <UniqueIdentifier>{B30EB6BF-B45E-3CDD-BC7A-41B844C714E6}</UniqueIdentifier>
     </Filter>
     <Filter Include="openvr">
-      <UniqueIdentifier>{84B04BB2-23AF-3A1A-912E-3D7ED28A2872}</UniqueIdentifier>
+      <UniqueIdentifier>{3D58CEBD-FD03-3A5D-B702-D1CBD6591C6F}</UniqueIdentifier>
     </Filter>
     <Filter Include="proxy">
-      <UniqueIdentifier>{4065A0F1-554E-395A-B733-A619FABE91AF}</UniqueIdentifier>
+      <UniqueIdentifier>{B18316A7-E9A8-383A-A379-E41395360EEE}</UniqueIdentifier>
     </Filter>
     <Filter Include="resources">
-      <UniqueIdentifier>{13C3551A-4B44-378A-9840-22EEAA3E1B0F}</UniqueIdentifier>
+      <UniqueIdentifier>{500C1755-0A2E-3A99-BB4B-A3AB1240EEB4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -2,30 +2,30 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\dxgi.dll</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\Debug\dxgi.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\fsr_easu.cso</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\Debug\fsr_easu.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\fsr_rcas.cso</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\Debug\fsr_rcas.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\NIS_Sharpen.cso</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\Debug\NIS_Sharpen.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\NIS_Upscale.cso</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\Debug\NIS_Upscale.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\cas.sharpen.cso</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\Debug\cas.sharpen.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\cas.upscale.cso</FullPath>
+      <FullPath>C:\Users\grant\Desktop\grants-foveated-rendering\Debug\cas.upscale.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

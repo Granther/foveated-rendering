@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\8fd51f88fb4c0d1da0b260bcf1fc2309\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\e5f54ab0e919fcf51304130621e22cb5\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F30FF1BF-F8B5-3AED-AE00-3398C703CFAC}</UniqueIdentifier>
+      <UniqueIdentifier>{38E18258-7E04-3E73-8C66-CB586F83E6CD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

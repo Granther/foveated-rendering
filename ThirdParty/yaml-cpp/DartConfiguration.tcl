@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp
-BuildDirectory: C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp
+SourceDirectory: C:/Users/grant/Desktop/grants-foveated-rendering/ThirdParty/yaml-cpp
+BuildDirectory: C:/Users/grant/Desktop/grants-foveated-rendering/ThirdParty/yaml-cpp
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/grant/Desktop/grants-foveated-rendering/ThirdParty/yaml-cpp"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

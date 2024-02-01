@@ -14,5 +14,5 @@ namespace vrperfkit {
         	float foveai[2][2] = { 0, 0, 0, 0 };
     }; 
 
-    extern Foveated f_foveated;
+    extern Foveated f_fov;
 }

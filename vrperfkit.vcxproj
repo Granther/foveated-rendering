@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4435BF18-CC00-31EE-A80B-AC6328725DFE}</ProjectGuid>
+    <ProjectGuid>{5892FB68-94B9-3CD1-ABF5-776639619946}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vrperfkit.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dxgi</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vrperfkit.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dxgi</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vrperfkit.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dxgi</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vrperfkit.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dxgi</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
@@ -87,7 +87,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -105,10 +105,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;WIN64;CMAKE_INTDIR=\"Debug\";vrperfkit_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,9 +122,9 @@
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/grant/Downloads/grants_vrperfkit-main/Debug/dxgi.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/grant/Downloads/grants_vrperfkit-main/resources/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/grant/Downloads/grants_vrperfkit-main/Debug/dxgi.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/grant/Desktop/grants-foveated-rendering/Debug/dxgi.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/grant/Desktop/grants-foveated-rendering/resources/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/grant/Desktop/grants-foveated-rendering/Debug/dxgi.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -151,10 +151,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;WIN64;CMAKE_INTDIR=\"Release\";vrperfkit_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,9 +168,9 @@
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/grant/Downloads/grants_vrperfkit-main/Release/dxgi.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/grant/Downloads/grants_vrperfkit-main/resources/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/grant/Downloads/grants_vrperfkit-main/Release/dxgi.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/grant/Desktop/grants-foveated-rendering/Release/dxgi.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/grant/Desktop/grants-foveated-rendering/resources/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/grant/Desktop/grants-foveated-rendering/Release/dxgi.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -179,7 +179,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -197,10 +197,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;WIN64;CMAKE_INTDIR=\"MinSizeRel\";vrperfkit_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,9 +214,9 @@
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/grant/Downloads/grants_vrperfkit-main/MinSizeRel/dxgi.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/grant/Downloads/grants_vrperfkit-main/resources/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/grant/Downloads/grants_vrperfkit-main/MinSizeRel/dxgi.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/grant/Desktop/grants-foveated-rendering/MinSizeRel/dxgi.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/grant/Desktop/grants-foveated-rendering/resources/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/grant/Desktop/grants-foveated-rendering/MinSizeRel/dxgi.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -225,7 +225,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -242,10 +242,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;WIN64;CMAKE_INTDIR=\"RelWithDebInfo\";vrperfkit_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\grant\Downloads\grants_vrperfkit-main\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\LibOVR\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\openvr\headers;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src;C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\nvapi;C:\Users\grant\Downloads\grants_vrperfkit-main;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\grant\Desktop\grants-foveated-rendering\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\LibOVR\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\openvr\headers;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\Vulkan-Headers\include;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\dxvk\src;C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\nvapi;C:\Users\grant\Desktop\grants-foveated-rendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -259,9 +259,9 @@
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/grant/Downloads/grants_vrperfkit-main/RelWithDebInfo/dxgi.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/grant/Downloads/grants_vrperfkit-main/resources/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/grant/Downloads/grants_vrperfkit-main/RelWithDebInfo/dxgi.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/grant/Desktop/grants-foveated-rendering/RelWithDebInfo/dxgi.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/grant/Desktop/grants-foveated-rendering/resources/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/grant/Desktop/grants-foveated-rendering/RelWithDebInfo/dxgi.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -269,11 +269,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\grant\Desktop\grants-foveated-rendering\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/grant/Desktop/grants-foveated-rendering/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Downloads/grants_vrperfkit-main -BC:/Users/grant/Downloads/grants_vrperfkit-main --check-stamp-file C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Desktop/grants-foveated-rendering -BC:/Users/grant/Desktop/grants-foveated-rendering --check-stamp-file C:/Users/grant/Desktop/grants-foveated-rendering/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/grant/Desktop/grants-foveated-rendering/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Downloads/grants_vrperfkit-main -BC:/Users/grant/Downloads/grants_vrperfkit-main --check-stamp-file C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Desktop/grants-foveated-rendering -BC:/Users/grant/Desktop/grants-foveated-rendering --check-stamp-file C:/Users/grant/Desktop/grants-foveated-rendering/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/grant/Desktop/grants-foveated-rendering/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Downloads/grants_vrperfkit-main -BC:/Users/grant/Downloads/grants_vrperfkit-main --check-stamp-file C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Desktop/grants-foveated-rendering -BC:/Users/grant/Desktop/grants-foveated-rendering --check-stamp-file C:/Users/grant/Desktop/grants-foveated-rendering/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,12 +307,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/grant/Desktop/grants-foveated-rendering/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Downloads/grants_vrperfkit-main -BC:/Users/grant/Downloads/grants_vrperfkit-main --check-stamp-file C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/grant/Desktop/grants-foveated-rendering -BC:/Users/grant/Desktop/grants-foveated-rendering --check-stamp-file C:/Users/grant/Desktop/grants-foveated-rendering/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -320,114 +320,114 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\grant\Desktop\grants-foveated-rendering\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\grant\Downloads\grants_vrperfkit-main\resources\exports.def" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\dxgi.cpp" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\d3d11.cpp" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\openvr.cpp" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\proxy_helpers.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\proxy_helpers.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_hooks.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_hooks.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_manager.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_manager.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_hooks.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_hooks.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_helper.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_helper.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_cas_upscaler.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_cas_upscaler.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_fsr_upscaler.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_fsr_upscaler.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_nis_upscaler.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_nis_upscaler.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_post_processor.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_post_processor.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_injector.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_injector.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_variable_rate_shading.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_variable_rate_shading.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\ScreenGrab11.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\ScreenGrab11.cpp" />
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\fsr_easu.hlsl">
+    <None Include="C:\Users\grant\Desktop\grants-foveated-rendering\resources\exports.def" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\dxgi.cpp" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\d3d11.cpp" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\openvr.cpp" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\proxy_helpers.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\proxy\proxy_helpers.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_hooks.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_hooks.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_manager.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\oculus\oculus_manager.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_hooks.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_hooks.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_manager.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\openvr\openvr_manager.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_helper.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_helper.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_cas_upscaler.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_cas_upscaler.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_fsr_upscaler.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_fsr_upscaler.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_nis_upscaler.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_nis_upscaler.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_post_processor.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_post_processor.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_injector.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_injector.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_variable_rate_shading.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\d3d11_variable_rate_shading.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\ScreenGrab11.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\d3d11\ScreenGrab11.cpp" />
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\fsr_easu.hlsl">
       <ShaderType>Compute</ShaderType>
       <ShaderModel>5.0</ShaderModel>
       <HeaderFileOutput>shader_fsr_easu.h</HeaderFileOutput>
       <VariableName>g_FSRUpscaleShader</VariableName>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\fsr_rcas.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\fsr_rcas.hlsl">
       <ShaderType>Compute</ShaderType>
       <ShaderModel>5.0</ShaderModel>
       <HeaderFileOutput>shader_fsr_rcas.h</HeaderFileOutput>
       <VariableName>g_FSRSharpenShader</VariableName>
     </FXCompile>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\ffx_a.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\ffx_fsr1.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Common.h" />
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Sharpen.hlsl">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\ffx_a.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\fsr\ffx_fsr1.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Common.h" />
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Sharpen.hlsl">
       <ShaderType>Compute</ShaderType>
       <ShaderModel>5.0</ShaderModel>
       <HeaderFileOutput>shader_nis_sharpen.h</HeaderFileOutput>
       <VariableName>g_NISSharpenShader</VariableName>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Upscale.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Upscale.hlsl">
       <ShaderType>Compute</ShaderType>
       <ShaderModel>5.0</ShaderModel>
       <HeaderFileOutput>shader_nis_upscale.h</HeaderFileOutput>
       <VariableName>g_NISUpscaleShader</VariableName>
     </FXCompile>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Config.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Scaler.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.compute.h" />
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.sharpen.hlsl">
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Config.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\nis\NIS_Scaler.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\cas.compute.h" />
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\cas.sharpen.hlsl">
       <ShaderType>Compute</ShaderType>
       <ShaderModel>5.0</ShaderModel>
       <HeaderFileOutput>shader_cas_sharpen.h</HeaderFileOutput>
       <VariableName>g_CASSharpenShader</VariableName>
     </FXCompile>
-    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.upscale.hlsl">
+    <FXCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\cas.upscale.hlsl">
       <ShaderType>Compute</ShaderType>
       <ShaderModel>5.0</ShaderModel>
       <HeaderFileOutput>shader_cas_upscale.h</HeaderFileOutput>
       <VariableName>g_CASUpscaleShader</VariableName>
     </FXCompile>
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\ffx_a.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\ffx_cas.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\foveated\foveated.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\foveated\foveated.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\config.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\config.cpp" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\dllmain.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hotkeys.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hotkeys.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hooks.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hooks.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\logging.h" />
-    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\logging.cpp" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\resolution_scaling.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\types.h" />
-    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\win_header_sane.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\ffx_a.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\cas\ffx_cas.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\foveated\foveated.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\foveated\foveated.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\config.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\config.cpp" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\dllmain.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hotkeys.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hotkeys.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hooks.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\hooks.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\logging.h" />
+    <ClCompile Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\logging.cpp" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\resolution_scaling.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\types.h" />
+    <ClInclude Include="C:\Users\grant\Desktop\grants-foveated-rendering\src\win_header_sane.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ZERO_CHECK.vcxproj">
-      <Project>{D43C4EC6-80B1-362B-8F92-D8928C8B98AF}</Project>
+    <ProjectReference Include="C:\Users\grant\Desktop\grants-foveated-rendering\ZERO_CHECK.vcxproj">
+      <Project>{FFE3490D-D3EA-3E0C-BE7A-B3AE3A4037BC}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\minhook\minhook.vcxproj">
-      <Project>{4FEDF639-8C36-33FE-ABE4-0AF894DB887C}</Project>
+    <ProjectReference Include="C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\minhook\minhook.vcxproj">
+      <Project>{8B9FDA5E-8BCD-3327-9577-05685E0BB8B3}</Project>
       <Name>minhook</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\yaml-cpp\yaml-cpp.vcxproj">
-      <Project>{3CF71ADF-A0FD-3B17-BC50-8E6FEF123D03}</Project>
+    <ProjectReference Include="C:\Users\grant\Desktop\grants-foveated-rendering\ThirdParty\yaml-cpp\yaml-cpp.vcxproj">
+      <Project>{8A48F1CF-1DED-33B0-8B97-2597243220E3}</Project>
       <Name>yaml-cpp</Name>
     </ProjectReference>
   </ItemGroup>

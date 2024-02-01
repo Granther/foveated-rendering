@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp/util
+# Install script for directory: C:/Users/grant/Desktop/grants-foveated-rendering/ThirdParty/yaml-cpp/util
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
