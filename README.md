@@ -1,58 +1,26 @@
-VR Performance Toolkit
-======================
+Grants VR Foveated Rendering
+=============================
 
-Performance-oriented collection of mods for VR games.
+Notices: 
+- This project is a work in progress, things WILL break
+- This repo is HEAVILY based on fholdger's vrperfkit [link here]
+- This repo is a fork of fholdger's vrperfkit [https://github.com/fholger/vrperfkit]
 
-Included mods:
+### What is Foveated Rendering?
 
-* Upscaling techniques (render at lower resolution and upscale to target resolution)
-  * AMD FidelityFX Super Resolution
-  * NVIDIA Image Scaling
-  * AMD Contrast Adaptive Sharpening
-* Fixed foveated rendering (render center of image at full resolution, but drop resolution towards edges)
-  * Variable Rate Shading (only for NVIDIA RTX / GTX 16xx cards)
+Foveated rendering is a method of reducing GPU overhead when rending a VR application by rendering the area the user is looking at in full, and all other spaces at a lower resolution
 
-Planned mods:
+This can be achieved in many ways, but most commonly is through shading groups of pixels instead of on a single pixel basis. Look at Nvidia's VRS for more details on this [VRS link]
+This can be achieved in many ways, but most commonly is through shading groups of pixels instead of on a single pixel basis. Look at Nvidia's VRS for more details on this [https://developer.nvidia.com/vrworks/graphics/variablerateshading]
 
-* "Fixed foveated" rendering (render fewer pixels at the edges of the screen)
-  * Radial Density Masking (all GPUs, but works only with a handful of games)
-* Force hidden area mask: don't render pixels at the edges that are not visible in the headset.
-  Many games already use this mask, but not all. This mod will allow you to force its usage.
+### Different Kinds of FR 
 
-Supported VR runtimes:
+#### Fixed 
+- Fixed foveated rendering renders a circle in the middle of the VR headset's view in full resolution. The further the area on the screen is from the middle of the display, the less shading is applied, thus less GPU usage.
+- The downside of this is that if the user looks at any other area on the screen then the center it is out of focus, so we need to have a larger radius in the middle of the display to account for this. But the larger the radius, the less performance gains we get
 
-* Oculus
-* OpenVR
+![Alt text](https://venturebeat.com/wp-content/uploads/2019/07/tobii.jpg?fit=1728%2C754&strip=all)
 
-Supported graphics APIs:
-
-* Direct3D 11
-
-## Installation
-
-Extract `dxgi.dll` and `vrperfkit.yml` next to the game's main executable.
-For Unreal Engine games, this is typically `<Game>Game\Binaries\Win64\<Game>Game-Win64-Shipping.exe`.
-
-Edit the `vrperfkit.yml` config file to your heart's content. The available options are
-documented inside the config file; you'll have to experiment with them and try which options
-work for your particular game.
-
-## Build instructions
-
-Clone the repository and init all submodules.
-
-```
-git clone https://github.com/fholger/vrperfkit.git
-cd vrperfkit
-git submodule init
-git submodule update --recursive
-```
-
-Download the [Oculus SDK](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows)
-and extract `LibOVR` from the downloaded archive to the `ThirdParty` folder.
-
-Download [NVAPI](https://developer.nvidia.com/nvapi) (requires NVIDIA developer account) and extract
-the contents of the `Rxxx-developer` folder to `ThirdParty\nvapi`.
-
-Run cmake to generate Visual Studio solution files. Build with Visual Studio. Note: Ninja does not work,
-due to the included shaders that need to be compiled. This is only supported with VS solutions.
+#### Dynamic Foveated Rendering
+- All issues with Fixed Foveated can be solved by one thing, eye tracking. We move the radius to wherever the user is looking.
+- Thus, we can use a smaller radius and if our eye tracking is fast enough the user wont ever be able to see the lower res edges
