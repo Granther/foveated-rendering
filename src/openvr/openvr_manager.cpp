@@ -1,4 +1,7 @@
 #include "openvr_manager.h"
+#include "../foveated/foveated.h"
+
+#include <iostream>
 
 #include "hotkeys.h"
 #include "logging.h"
@@ -9,12 +12,14 @@
 #include "d3d11/d3d11_post_processor.h"
 #include "d3d11/d3d11_variable_rate_shading.h"
 
+#include "../cursor/curs_win.h"
+
 #include "dxgi/dxgi_interfaces.h"
 
 #include <unordered_map>
 
 namespace vrperfkit {
-	OpenVrManager g_openVr;
+	OpenVrManager g_openVr;	
 
 	using namespace vr;
 
@@ -220,6 +225,7 @@ namespace vrperfkit {
 	}
 
 	void OpenVrManager::EnsureInit(const OpenVrSubmitInfo &info) {
+
 		if (info.texture->eType == TextureType_DirectX) {
 			ID3D11Texture2D *d3d11Tex = (ID3D11Texture2D*)info.texture->handle;
 			ComPtr<ID3D11Device> device;
@@ -422,16 +428,18 @@ namespace vrperfkit {
 			outputTexInfo->eColorSpace = inputIsSrgb ? ColorSpace_Gamma : ColorSpace_Auto;
 			info.texture = outputTexInfo.get();
 		}
+		
+		float projLX = (isFlippedX ? 1.f - projCenters.eyeCenter[0].x : projCenters.eyeCenter[0].x);
+		float projRY = (isFlippedY ? 1.f - projCenters.eyeCenter[1].y : projCenters.eyeCenter[1].y);
+		float projLY = (isFlippedY ? 1.f - projCenters.eyeCenter[0].y : projCenters.eyeCenter[0].y);
+		float projRX = (isFlippedX ? 1.f - projCenters.eyeCenter[1].x : projCenters.eyeCenter[1].x);
 
-		float projLX = isFlippedX ? 1.f - projCenters.eyeCenter[0].x : projCenters.eyeCenter[0].x;
-		cout << "projLx" << projLX << endl;
-		float projLY = isFlippedY ? 1.f - projCenters.eyeCenter[0].y : projCenters.eyeCenter[0].y;
-		cout << "projLy" << projLY << endl;
-		float projRX = isFlippedX ? 1.f - projCenters.eyeCenter[1].x : projCenters.eyeCenter[1].x;
-		cout << "projRx" << projRX << endl;
-		float projRY = isFlippedY ? 1.f - projCenters.eyeCenter[1].y : projCenters.eyeCenter[1].y;
-		cout << "projRy" << projRY << endl;
+		//d3d11Res->variableRateShading->UpdateTargetInformation(itd.Width, itd.Height, input.mode, projLX, projLY, projRX, projRY);
+
+		// We are going to add the adder to the pros every time update target runs, we will iterate adder up until it reaches 0.5, where we will then set it to zero again
+
 		d3d11Res->variableRateShading->UpdateTargetInformation(itd.Width, itd.Height, input.mode, projLX, projLY, projRX, projRY);
+
 		d3d11Res->variableRateShading->EndFrame();
 	}
 

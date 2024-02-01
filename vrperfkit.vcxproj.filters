@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\dxgi.cpp">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\d3d11.cpp">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\openvr.cpp">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\proxy_helpers.cpp">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_hooks.cpp">
+      <Filter>oculus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_manager.cpp">
+      <Filter>oculus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_hooks.cpp">
+      <Filter>openvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp">
+      <Filter>openvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_helper.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_cas_upscaler.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_fsr_upscaler.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_nis_upscaler.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_post_processor.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_injector.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_variable_rate_shading.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\ScreenGrab11.cpp">
+      <Filter>d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\foveated\foveated.cpp">
+      <Filter>foveated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\config.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\dllmain.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hotkeys.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hooks.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\logging.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\proxy\proxy_helpers.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_hooks.h">
+      <Filter>oculus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\oculus\oculus_manager.h">
+      <Filter>oculus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_hooks.h">
+      <Filter>openvr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.h">
+      <Filter>openvr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_helper.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_cas_upscaler.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_fsr_upscaler.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_nis_upscaler.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_post_processor.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_injector.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\d3d11_variable_rate_shading.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\d3d11\ScreenGrab11.h">
+      <Filter>d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\ffx_a.h">
+      <Filter>fsr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\ffx_fsr1.h">
+      <Filter>fsr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Common.h">
+      <Filter>nis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Config.h">
+      <Filter>nis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Scaler.h">
+      <Filter>nis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.compute.h">
+      <Filter>cas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\ffx_a.h">
+      <Filter>cas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\ffx_cas.h">
+      <Filter>cas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\foveated\foveated.h">
+      <Filter>foveated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\config.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hotkeys.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\hooks.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\logging.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\resolution_scaling.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\types.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\win_header_sane.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\grant\Downloads\grants_vrperfkit-main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\fsr_easu.hlsl">
+      <Filter>fsr</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\fsr\fsr_rcas.hlsl">
+      <Filter>fsr</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Sharpen.hlsl">
+      <Filter>nis</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\nis\NIS_Upscale.hlsl">
+      <Filter>nis</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.sharpen.hlsl">
+      <Filter>cas</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\grant\Downloads\grants_vrperfkit-main\src\cas\cas.upscale.hlsl">
+      <Filter>cas</Filter>
+    </FXCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\grant\Downloads\grants_vrperfkit-main\resources\exports.def">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cas">
+      <UniqueIdentifier>{1DF2DAE4-3F2E-3513-8CB3-9ADA3BDD5E4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{6CC1E7C0-1A51-3AB3-ACF9-E3D6A9D1BCE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d11">
+      <UniqueIdentifier>{E4C58779-0935-3BA5-B569-8913F8608B57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="foveated">
+      <UniqueIdentifier>{95169FE6-136D-3A4F-8C73-AB8E24E58AA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fsr">
+      <UniqueIdentifier>{991F13C5-122C-3BA1-B679-D2BD754DC833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nis">
+      <UniqueIdentifier>{31399A33-1F7C-30F6-8DFB-C93F81584BCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oculus">
+      <UniqueIdentifier>{8D058ED9-E31A-3737-9478-06407EEE0FF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openvr">
+      <UniqueIdentifier>{84B04BB2-23AF-3A1A-912E-3D7ED28A2872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxy">
+      <UniqueIdentifier>{4065A0F1-554E-395A-B733-A619FABE91AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{13C3551A-4B44-378A-9840-22EEAA3E1B0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -6,7 +6,13 @@
 #include "oculus/oculus_hooks.h"
 #include "oculus/oculus_manager.h"
 #include "openvr/openvr_hooks.h"
+#include "openvr/openvr_manager.h"
+//#include "cursor/cursor2.h"
+//#include "cursor/curs_win.h"
 #include <mutex>
+
+#include <thread>
+#include <chrono>
 
 namespace fs = std::filesystem;
 
@@ -101,7 +107,12 @@ namespace {
 		vrperfkit::hooks::InstallHook("LoadLibraryExA", (void*)&LoadLibraryExA, (void*)&Hook_LoadLibraryExA);
 		vrperfkit::hooks::InstallHook("LoadLibraryW", (void*)LoadLibraryW, (void*)Hook_LoadLibraryW);
 		vrperfkit::hooks::InstallHook("LoadLibraryExW", (void*)&LoadLibraryExW, (void*)&Hook_LoadLibraryExW);
+
 		InstallVrHooks();
+
+		//Cursor::makePipe(); //this is our issue
+
+		//std::this_thread::sleep_for(std::chrono::seconds(1));
 	}
 
 	void ShutdownVrPerfkit() {

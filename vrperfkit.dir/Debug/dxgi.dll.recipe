@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\dxgi.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\fsr_easu.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\fsr_rcas.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\NIS_Sharpen.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\NIS_Upscale.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\cas.sharpen.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\grant\Downloads\grants_vrperfkit-main\Debug\cas.upscale.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

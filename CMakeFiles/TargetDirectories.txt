@@ -1,0 +1,10 @@
+C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/vrperfkit.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/INSTALL.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/ALL_BUILD.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/CMakeFiles/ZERO_CHECK.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/minhook/CMakeFiles/minhook.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/minhook/CMakeFiles/INSTALL.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/minhook/CMakeFiles/ALL_BUILD.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp/CMakeFiles/yaml-cpp.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp/CMakeFiles/INSTALL.dir
+C:/Users/grant/Downloads/grants_vrperfkit-main/ThirdParty/yaml-cpp/CMakeFiles/ALL_BUILD.dir

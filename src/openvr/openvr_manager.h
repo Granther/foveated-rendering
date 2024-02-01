@@ -17,6 +17,9 @@ namespace vrperfkit {
 
 	class OpenVrManager {
 	public:
+
+		float adder = 0;
+
 		void Shutdown();
 
 		void OnSubmit(OpenVrSubmitInfo &info);
@@ -40,7 +43,7 @@ namespace vrperfkit {
 		vr::VRTextureBounds_t outputBounds;
 		std::unique_ptr<vr::Texture_t> outputTexInfo;
 
-		std::unique_ptr<OpenVrD3D11Resources> d3d11Res;
+		std::unique_ptr<OpenVrD3D11Resources> d3d11Res; // The unique ptr is explicetly owned by whoever owns it, there is no question. It handles deleting itself
 		std::unique_ptr<OpenVrDxvkResources> dxvkRes;
 
 		void EnsureInit(const OpenVrSubmitInfo &info);

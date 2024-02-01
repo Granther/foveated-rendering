@@ -1,0 +1,37 @@
+﻿  openvr_manager.cpp
+C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src\util\util_bit.h(250,56): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file 'src/openvr/openvr_manager.cpp')
+  
+C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src\util\util_bit.h(254,56): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file 'src/openvr/openvr_manager.cpp')
+  
+C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src\util\util_bit.h(300,33): warning C4996: 'std::iterator<std::input_iterator_tag,uint32_t,uint32_t,const uint32_t *,uint32_t>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'src/openvr/openvr_manager.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(7115,54):
+  see declaration of 'std::iterator'
+  
+C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src\vulkan\vulkan_util.h(134,42): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  (compiling source file 'src/openvr/openvr_manager.cpp')
+  
+C:\Users\grant\Downloads\grants_vrperfkit-main\ThirdParty\dxvk\src\dxvk\dxvk_extensions.h(133,26): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data
+  (compiling source file 'src/openvr/openvr_manager.cpp')
+  
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(35,20): error C2065: 'WindowProc': undeclared identifier
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(37,22): error C2440: '=': cannot convert from 'const wchar_t [18]' to 'LPCSTR'
+  C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(37,22):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(42,15): error C2664: 'HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const wchar_t [18]' to 'LPCSTR'
+  C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(44,4):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(4421,1):
+  see declaration of 'CreateWindowExA'
+  C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(42,15):
+  while trying to match the argument list '(int, const wchar_t [18], const wchar_t [16], long, int, int, int, int, nullptr, nullptr, HMODULE, nullptr)'
+  
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(88,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(89,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(467,38): warning C4244: '=': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(468,38): warning C4244: '=': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(469,42): warning C4244: '=': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\grant\Downloads\grants_vrperfkit-main\src\openvr\openvr_manager.cpp(470,43): warning C4244: '=': conversion from 'float' to 'uint32_t', possible loss of data

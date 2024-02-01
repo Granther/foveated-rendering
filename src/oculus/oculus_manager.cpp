@@ -154,6 +154,29 @@ namespace vrperfkit {
 		}
 	}
 
+	void OculusManager::OnFrameSubmissionFoveated(ovrSession session, ovrLayerEyeFovDepth &eyeLayer) {
+		if (failed || session == nullptr || eyeLayer.ColorTexture[0] == nullptr) {
+			return;
+		}
+		EnsureInit(session, eyeLayer.ColorTexture[0], eyeLayer.ColorTexture[1]);
+		if (failed) {
+			return;
+		}
+
+		try {
+			if (graphicsApi == GraphicsApi::D3D11) {
+				PostProcessD3D11(eyeLayer);
+			}
+
+			CheckHotkeys();
+		}
+		catch (const std::exception &e) {
+			LOG_ERROR << "Failed during post processing: " << e.what();
+			Shutdown();
+			failed = true;
+		}
+	}
+
 	ProjectionCenters OculusManager::CalculateProjectionCenter(const ovrFovPort *fov) {
 		ProjectionCenters projCenters;
 		for (int eye = 0; eye < 2; ++eye) {
@@ -272,6 +295,100 @@ namespace vrperfkit {
 		initialized = true;
 	}
 
+		void OculusManager::PostProcessD3D11Foveated(ovrLayerEyeFovDepth &eyeLayer) {
+		auto projCenters = CalculateProjectionCenter(eyeLayer.Fov);
+		bool successfulPostprocessing = false;
+		bool isFlippedY = eyeLayer.Header.Flags & ovrLayerFlag_TextureOriginAtBottomLeft;
+
+		for (int eye = 0; eye < 2; ++eye) {
+			int index;
+			ovrTextureSwapChain curSwapChain = submittedEyeChains[eye] != nullptr ? submittedEyeChains[eye] : submittedEyeChains[0];
+			Check("getting current swapchain index", ovr_GetTextureSwapChainCurrentIndex(session, curSwapChain, &index));
+			// since the current submitted texture has already been committed, the index will point past the current texture
+			index = (index - 1 + d3d11Res->submittedTextures[eye].size()) % d3d11Res->submittedTextures[eye].size();
+
+			// if the incoming texture is multi-sampled, we need to resolve it before we can post-process it
+			if (d3d11Res->multisampled[eye]) {
+				if (d3d11Res->usingArrayTex || submittedEyeChains[eye] != nullptr) {
+					D3D11_TEXTURE2D_DESC td;
+					d3d11Res->submittedTextures[eye][index]->GetDesc(&td);
+					d3d11Res->context->ResolveSubresource(
+						d3d11Res->resolveTexture[eye].Get(),
+						D3D11CalcSubresource(0, d3d11Res->usingArrayTex ? eye : 0, 1),
+						d3d11Res->submittedTextures[eye][index].Get(),
+						D3D11CalcSubresource(0, d3d11Res->usingArrayTex ? eye : 0, td.MipLevels),
+						TranslateTypelessFormats(td.Format));
+				}
+			}
+
+			int outIndex = 0;
+			ovr_GetTextureSwapChainCurrentIndex(session, outputEyeChains[eye], &outIndex);
+
+			D3D11PostProcessInput input;
+			input.inputTexture = d3d11Res->submittedTextures[eye][index].Get();
+			input.inputView = d3d11Res->submittedViews[eye][index].Get();
+			input.outputTexture = d3d11Res->outputTextures[eye][outIndex].Get();
+			input.outputView = d3d11Res->outputViews[eye][outIndex].Get();
+			input.outputUav = d3d11Res->outputUavs[eye][outIndex].Get();
+			input.inputViewport.x = eyeLayer.Viewport[eye].Pos.x;
+			input.inputViewport.y = eyeLayer.Viewport[eye].Pos.y;
+			input.inputViewport.width = eyeLayer.Viewport[eye].Size.w;
+			input.inputViewport.height = eyeLayer.Viewport[eye].Size.h;
+			input.eye = eye;
+			input.projectionCenter = projCenters.eyeCenter[eye];
+
+			if (isFlippedY) {
+				input.projectionCenter.y = 1.f - input.projectionCenter.y;
+			}
+
+			if (submittedEyeChains[1] == nullptr || submittedEyeChains[1] == submittedEyeChains[0]) {
+				if (d3d11Res->usingArrayTex) {
+					input.mode = TextureMode::ARRAY;
+				} else {
+					input.mode = TextureMode::COMBINED;
+				}
+			} else {
+				input.mode = TextureMode::SINGLE;
+			}
+
+			Viewport outputViewport;
+			if (d3d11Res->postProcessor->Apply(input, outputViewport)) {
+				eyeLayer.ColorTexture[eye] = outputEyeChains[eye];
+				eyeLayer.Viewport[eye].Pos.x = outputViewport.x;
+				eyeLayer.Viewport[eye].Pos.y = outputViewport.y;
+				eyeLayer.Viewport[eye].Size.w = outputViewport.width;
+				eyeLayer.Viewport[eye].Size.h = outputViewport.height;
+				successfulPostprocessing = true;
+			}
+
+            /* Instead of this bull crap
+			D3D11_TEXTURE2D_DESC td;
+			input.inputTexture->GetDesc(&td);
+			float projLX = projCenters.eyeCenter[0].x;
+			float projLY = isFlippedY ? 1.f - projCenters.eyeCenter[0].y : projCenters.eyeCenter[0].y;
+			float projRX = projCenters.eyeCenter[1].x;
+			float projRY = isFlippedY ? 1.f - projCenters.eyeCenter[1].y : projCenters.eyeCenter[1].y;
+			d3d11Res->variableRateShading->UpdateTargetInformation(td.Width, td.Height, input.mode, projLX, projLY, projRX, projRY);
+            */
+
+            D3D11_TEXTURE2D_DESC td;
+			input.inputTexture->GetDesc(&td);
+
+            f_foveated.GetXREyeFoveated();
+
+			d3d11Res->variableRateShading->UpdateTargetInformation(td.Width, td.Height, input.mode, 0.5, 0.5, 0.5, 0.5);
+		}
+
+		d3d11Res->variableRateShading->EndFrame();
+
+		if (successfulPostprocessing) {
+			ovr_CommitTextureSwapChain(session, outputEyeChains[0]);
+			if (outputEyeChains[1] != outputEyeChains[0]) {
+				ovr_CommitTextureSwapChain(session, outputEyeChains[1]);
+			}
+		}
+	}
+
 	void OculusManager::PostProcessD3D11(ovrLayerEyeFovDepth &eyeLayer) {
 		auto projCenters = CalculateProjectionCenter(eyeLayer.Fov);
 		bool successfulPostprocessing = false;
@@ -357,3 +474,40 @@ namespace vrperfkit {
 		}
 	}
 }
+
+/*
+Ok, so we need to UpdateTargetInformation everytime the headset gives us a new gaze x,y
+
+If the framerate is faster then out Eye tracking, we are going to use the buffer
+
+We will actually ALWAYS send the X Y data to a buffer, and the update will always use that buffer, so if we have not updated the eye pos yet it will just use old data
+
+So we need out Update to run every single frame, but.... We may not actually need to update every frame. I think it may handle if we do not submit another change before the next frame
+
+So we only need to submit the update as often as the eye tracking software tracks
+		This may create unforeseen issues with the way the game renders, will the fovea remain? Idk
+
+Oculus manager cpp 
+	InstallOculusHooks >> ovrHook_SubmitFrame >> HandleFrameSubmission >> OnFrameSubmission >> PostProcessD3D11 
+
+The hooks are installed for ovrHook_SubmitFrame in InstallOculusHooks, this is supposedly run every frame
+
+So we are going to call our own version of HandleFrameSubmission, which is called by the hooked functions. 
+Our custom call will deliver the most up to date fovea positions, performing what the other functions down the line do
+
+So we need to write our own implemantation of HandleFrame, OnFrame, PostProc
+
+So I'm going to retrieve the eye tracking info from OpenXR when the dll is run, I will shoot the X and Y into the Foveated object
+
+We need a function that will continue to ask for the gaze pos right now and update the object, this function will be called each time Handle is called
+	Thus, if new data has not been loaded into the obj yet, it will use old data wich is just fine
+
+g_oculus is an instantiation of the OculusManager class
+
+Maybe I should just make Foveated inherit from OculusManager and I'll just add the special foveated methods
+	Then I dont have to deal with making some of the right objects that all the methods use, essentially rewriting the class
+
+
+Ok I give up, lets just modify the oculus class and have it ask my foveated class only for the data, so when it runs my customized OculusManager methods it will also run my XrAsk...
+
+*/

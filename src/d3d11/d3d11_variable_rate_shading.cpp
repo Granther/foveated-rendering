@@ -82,15 +82,20 @@ namespace vrperfkit {
 		active = true;
 		LOG_INFO << "Successfully initialized NVAPI; Variable Rate Shading is available.";
 	}
-
+	
 	void D3D11VariableRateShading::UpdateTargetInformation(int targetWidth, int targetHeight, TextureMode mode, float leftProjX, float leftProjY, float rightProjX, float rightProjY) {
 		this->targetWidth = targetWidth;
 		this->targetHeight = targetHeight;
 		this->targetMode = mode;
-		proj[0][0] = leftProjX;
-		proj[0][1] = leftProjY;
-		proj[1][0] = rightProjX;
-		proj[1][1] = rightProjY;
+		proj[0][0] = leftProjX + 0.25;
+		proj[0][1] = leftProjY + 0.25;
+		proj[1][0] = rightProjX + 0.25;
+		proj[1][1] = rightProjY + 0.25;
+
+		LOG_INFO << "projLX" << leftProjX;
+		LOG_INFO << "projLY" << leftProjY;
+		LOG_INFO << "projRX" << rightProjX;
+		LOG_INFO << "projRY" << rightProjY;
 	}
 
 	void D3D11VariableRateShading::EndFrame() {

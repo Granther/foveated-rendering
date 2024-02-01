@@ -1,6 +1,7 @@
 #pragma once
 #include "OVR_CAPI.h"
-#include "types.h"
+#include "../types.h"
+#include "../foveated/foveated.h"
 
 #include <memory>
 
@@ -14,6 +15,7 @@ namespace vrperfkit {
 		void EnsureInit(ovrSession session, ovrTextureSwapChain leftEyeChain, ovrTextureSwapChain rightEyeChain);
 
 		void OnFrameSubmission(ovrSession session, ovrLayerEyeFovDepth &eyeLayer);
+		void OnFrameSubmissionFoveated(ovrSession session, ovrLayerEyeFovDepth &eyeLayer);
 
 	private:
 		bool failed = false;
@@ -29,6 +31,7 @@ namespace vrperfkit {
 		void InitD3D11();
 
 		void PostProcessD3D11(ovrLayerEyeFovDepth &eyeLayer);
+		void PostProcessD3D11Foveated(ovrLayerEyeFovDepth &eyeLayer);
 	};
 
 	extern OculusManager g_oculus;

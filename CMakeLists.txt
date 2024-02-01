@@ -72,6 +72,13 @@ set(D3D11_FILES
 )
 source_group("d3d11" FILES ${D3D11_FILES})
 
+set(FOVEATED_FILES 
+	src/foveated/foveated.h
+	src/foveated/foveated.cpp
+)
+
+source_group("foveated" FILES ${FOVEATED_FILES})
+
 set(FSR_FILES
 	src/fsr/fsr_easu.hlsl
 	src/fsr/fsr_rcas.hlsl
@@ -104,6 +111,7 @@ source_group("cas" FILES ${CAS_FILES})
 set_compute_shader(src/cas/cas.sharpen.hlsl "shader_cas_sharpen.h" "g_CASSharpenShader")
 set_compute_shader(src/cas/cas.upscale.hlsl "shader_cas_upscale.h" "g_CASUpscaleShader")
 
+
 set(MAIN_FILES
 	src/config.h
 	src/config.cpp
@@ -129,6 +137,7 @@ set(PROJECT_FILES
 	${FSR_FILES}
 	${NIS_FILES}
 	${CAS_FILES}
+	${FOVEATED_FILES}
 	${MAIN_FILES}
 )
 

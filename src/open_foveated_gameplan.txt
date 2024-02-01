@@ -1,0 +1,7 @@
+Will be a fork of the vrperfkit repo
+
+User should be able to adjust the radii of the fovea circles
+
+Will send the eye position to the openvr_manager which will adjust the center of the mask from 0 to 1 on the X and Y
+
+If eye tracking is lost, will switch to fixed foveated rendering in the middle of the display
