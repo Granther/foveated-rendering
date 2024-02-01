@@ -3,14 +3,12 @@ Grants VR Foveated Rendering
 
 Notices: 
 - This project is a work in progress, things WILL break
-- This repo is HEAVILY based on fholdger's vrperfkit [link here]
 - This repo is a fork of fholdger's vrperfkit [https://github.com/fholger/vrperfkit]
 
 ### What is Foveated Rendering?
 
 Foveated rendering is a method of reducing GPU overhead when rending a VR application by rendering the area the user is looking at in full, and all other spaces at a lower resolution
 
-This can be achieved in many ways, but most commonly is through shading groups of pixels instead of on a single pixel basis. Look at Nvidia's VRS for more details on this [VRS link]
 This can be achieved in many ways, but most commonly is through shading groups of pixels instead of on a single pixel basis. Look at Nvidia's VRS for more details on this [https://developer.nvidia.com/vrworks/graphics/variablerateshading]
 
 ### Different Kinds of FR 
