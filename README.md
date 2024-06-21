@@ -1,4 +1,4 @@
-Grants VR Foveated Rendering
+OpenXR VR Foveated Rendering
 =============================
 
 Notices: 
